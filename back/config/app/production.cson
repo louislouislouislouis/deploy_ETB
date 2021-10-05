@@ -1,6 +1,0 @@
-{
-    mongo : {
-        # strategie when the app start for the database ("drop-and-create" or "none")
-        strategie : "none"
-    }
-}
