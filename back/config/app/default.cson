@@ -1,0 +1,36 @@
+{
+    descriptor : {
+        # output file for descriptor
+        file : "descriptor.md"
+        # number of space by tabulation
+        nbSpaceByTab : 2
+    }
+    log : {
+        # folder output of the log
+        folder : "./log"
+        # nb of file max
+        nbFileMax : 5
+    }
+    csv : {
+        # separator
+        separator : ";"
+    }
+    search : {
+        # nb of result in the response max
+        limit : 150
+    }
+    mongo : {
+        # strategie when the app start for the database ("drop-and-create" or "none")
+        strategie : "drop-and-create"
+        database : {
+            #name of the database
+            name : "dentaireDev"
+        }
+        tables : {
+            #name of the table item
+            items : "items",
+            #name of the table stats
+            stats : "stats"
+        }
+    }
+}

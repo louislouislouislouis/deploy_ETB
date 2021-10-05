@@ -1,0 +1,87 @@
+.maincard_product {
+  width: 100%;
+  max-width: 300px;
+}
+.maincard_product .starcontainer {
+  display: flex;
+  align-items: center;
+  min-width: 170px;
+  overflow: hidden;
+}
+.maincard_product img {
+  width: 80%;
+}
+.maincard_product .insider_product {
+  margin: 5px;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  height: calc(100% - 30px);
+  align-items: center;
+}
+
+.product_details .img_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product_details .maintittle {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+.product_details .marque_pr {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+.vendor_lg img {
+  width: 18px;
+}
+.vendors_appercu {
+  display: flex;
+}
+.details_pr .vendors {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: left;
+  margin: 5px 0 5px 0;
+}
+.details_pr .main_info {
+  margin: 5px 0 5px 0;
+}
+.details_pr .price {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.price .right_pr {
+  margin-right: 5px;
+  position: relative;
+  z-index: 8;
+}
+.price .value {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #3964af;
+}
